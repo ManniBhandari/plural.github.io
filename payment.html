@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/comman.css" />
+    <link type="text/css" rel="stylesheet" href="css/payment.css" />
+    <title>Payment</title>
+</head>
+
+<body>
+
+
+    <!-- Login Modal start -->
+    <div class="modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="top-gradiant"></div>
+                <div class="modalMiddle">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-header-section">
+                        <div class="logo">
+                            <img src="images/logo.svg" alt="Logo" />
+                        </div>
+                        <div class="header-order-total">
+                            <p>Clarks.in</p>
+                            <label>ORDER TOTAL</label>
+                            <span>₹5,200</span>
+                        </div>
+                    </div>
+
+                    <!-- User -->
+                    <div class="myUser">
+                       <div class="userIcon"><img src="images/account.svg" alt="user" /></div> <span>+91 9876543210  <label>|</label>  johnappleseed@gmail.com</span> <button class="editButton"><img src="images/edit_icon.svg" alt="edit" /> </button>
+                    </div>
+
+                    <!-- Save card section -->
+                    <div class="savedCard">
+                        <h4>RECENTLY USED</h4>
+                        <div class="specialsDiscoverability swiper-container">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <div class="bankIcon">
+                                        <img src="images/hdfc.svg" alt="hdfc" width="28" />
+                                    </div>
+                                    <label>Netbanking</label>
+                                    <span>HDFC</span>
+                                </li>
+                                <li class="swiper-slide">
+                                    <div class="bankIcon">
+                                        <img src="images/apay.svg" alt="hdfc" width="36" />
+                                    </div>
+                                    <label>Wallet</label>
+                                    <span>Amazon Pay</span>
+                                </li>
+                                <li class="swiper-slide">
+                                    <div class="bankIcon">
+                                        <img src="images/Mastercard_recently_used.svg" alt="hdfc" width="36" />
+                                    </div>
+                                    <label>HDFC Card</label>
+                                    <span>•••• 1234</span>
+                                </li>
+                                <li class="swiper-slide">
+                                    <div class="bankIcon">
+                                        <img src="images/hdfc.svg" alt="hdfc" width="28" />
+                                    </div>
+                                    <label>Netbanking</label>
+                                    <span>HDFC</span>
+                                </li>
+                                <li class="swiper-slide">
+                                    <div class="bankIcon">
+                                        <img src="images/apay.svg" alt="hdfc" width="36" />
+                                    </div>
+                                    <label>Wallet</label>
+                                    <span>Amazon Pay</span>
+                                </li>
+                                <li class="swiper-slide">
+                                    <div class="bankIcon">
+                                        <img src="images/Mastercard_recently_used.svg" alt="hdfc" width="36" />
+                                    </div>
+                                    <label>HDFC Card</label>
+                                    <span>•••• 1234</span>
+                                </li>
+                            </ul>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next swiper-button-white">
+                                <span></span>
+                            </div>
+                            <div class="swiper-button-prev swiper-button-white">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <div class="paymentOption paylist">
+                            <h4 class="form-title">PAYMENT OPTIONS</h4>
+                            <ul>
+                                <li class="creditCard">Credit/Debit Cards</li>
+                                <li class="netbanking">Netbanking</li>
+                                <li class="payUpi">Pay via UPI</li>
+                                <li class="wallet">Wallet</li>
+                                <li class="emi">EMI</li>
+                                <li class="payLater">Buy Now Pay Later</li>
+                                <li class="payPoints">Pay via Points</li>
+                                <li class="giftCard">Gift Card</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Footer Icons -->
+            <div class="footer_icon">
+                <img src="images/plural_logo.svg" alt="pluralLogo" />
+                <img src="images/pci-icon.svg" alt="pci" />
+                <img src="images/visa-icon.svg" alt="visaVerified" />
+                <img src="images/Mastercard-icon.svg" alt="masterCard" />
+                <img src="images/safekey-icon.svg" alt="safekey" />
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        var specialsDiscoverability = new Swiper('.specialsDiscoverability', {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            breakpoints: {
+                474: {
+                    slidesPerView: 3,
+                }
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+    </script>
+
+</body>
+
+</html>

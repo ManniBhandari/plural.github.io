@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="css/comman.css" />
+    <link type="text/css" rel="stylesheet" href="css/login.css" />
+    <title>OTP</title>
+</head>
+
+<body>
+
+
+    <!-- Login Modal start -->
+    <div class="modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="top-gradiant"></div>
+                <div class="modalMiddle">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-header-section">
+                        <div class="logo">
+                            <img src="images/logo.svg" alt="Logo" />
+                        </div>
+                        <div class="header-order-total">
+                            <p>Clarks.in</p>
+                            <label>ORDER TOTAL</label>
+                            <span>₹5,200</span>
+                        </div>
+                    </div>
+
+
+                    <div class="modal-body">
+                        <h4 class="form-title otpTitle">Enter One Time Password</h4>
+                        <div class="otpSentText">
+                            A OTP has been sent to <b>+91 9876543210</b> <button class="edit">Edit</button>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" maxlength="6" class="form-control otpFiled form_error" id="otp" value="123456" >
+                            <div class="error otpError">
+                                This doesn’t match the OTP we sent. Check again?
+                            </div>
+                        </div>
+                        <div class="resendOtp">
+                            <p>RESEND OTP IN <span>1:45</span> <label>OTP Sent Successfully</label></p>
+                            <button class="resendOtpBt">RESEND OTP</button>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary"><a href="payment.html">Submit <img src="images/right_chevron.svg" alt="arrow" /></a> </button>
+                        <button class="skipStep">Skip this step</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Icons -->
+            <div class="footer_icon">
+                <img src="images/plural_logo.svg" alt="pluralLogo" />
+                <img src="images/pci-icon.svg" alt="pci" />
+                <img src="images/visa-icon.svg" alt="visaVerified" />
+                <img src="images/Mastercard-icon.svg" alt="masterCard" />
+                <img src="images/safekey-icon.svg" alt="safekey" />
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

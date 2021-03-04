@@ -1,0 +1,148 @@
+.phoneNo{
+    display: flex;
+    position: relative;
+}
+.input-group-text select{
+    margin-right: 10px;
+    border: 1px solid #EBECEF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 40px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #24342B;
+    width: 50px;
+    appearance: none;
+    padding: 0 8px;
+    background: url(../images/down_chevron.svg) 87% center no-repeat #fff;
+    background-size: 8px;
+}
+.edit{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    text-decoration-line: underline;
+    color: #337FE6;
+    background: none;
+    cursor: pointer;
+}
+
+
+/* Otp page css */
+.otpTitle{
+    margin-bottom: 8px;
+}
+.otpFiled{
+     font-family: 'Indivisible SemiBold';
+    font-size: 20px;
+    line-height: 24px;
+    color: #24342B;
+    height: 40px;
+    padding: 10px 16px;
+}
+.resendOtp {
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .resendOtp p {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #C3CCC9;
+  }
+  
+  .resendOtp p span {
+    color: #337FE6;
+    font-weight: 600;
+  }
+  
+  .resendOtp label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #01D684;
+    letter-spacing: normal;
+    text-transform: none;
+    background: url(../images/tick.svg) 0 center no-repeat;
+    padding-left: 16px;
+    float: right;
+  }
+  
+  .resendOtpBt {
+    background: #E6EFFC;
+    border-radius: 66px;
+    width: 108px;
+    height: 24px;
+    border: none;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #337CE6;
+    padding-right: 1px;
+  }
+  
+  .form-control.otpField {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.44em;
+    color: #24342B;
+  }
+  
+  .otpSentText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #77857F;
+    margin-bottom: 20px;
+  }
+  
+  .otpSentText b {
+    color: #24342B;
+    font-family: 'Indivisible Medium';
+  }
+  
+  .otpSentText span {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    text-decoration-line: underline;
+    color: #337FE6 !important;
+    cursor: pointer;
+  }
+  
+  .skipStep {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #24342B;
+    opacity: 0.5;
+    border: none;
+    background: none;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Indivisible SemiBold';
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .otpError {
+    margin-top: 8px;
+    position: absolute;
+  }
+  .phoneValidation {
+    position: absolute;
+    top: -18px;
+    right: 0;
+  }
